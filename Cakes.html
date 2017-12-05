@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>Store.kz</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="Ramstore.css">
+  <script type="Ramstore.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css?family=Copse" rel="stylesheet">
+ <script type="text/javascript" src="angular.min.js"></script>
+
+  <script type="text/javascript">
+
+     $("document").ready(function() {
+            $("#load").bind("click", function() {
+                $.ajax({
+                    url: "task31.php",
+                    type: "POST",
+                    success: function(data) {
+                        $("#result").text(data);
+                    }
+                })
+            })
+        });
+  </script>
+
+</head>
+<body>
+<div id="background1">
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-12">
+		 <p id="advert"></p>
+		</div>
+	</div>
+</div>
+
+<div class="FirstWords">
+<div class="container text-center">
+	<a href="index.html"><h1 id="orange">RamStore</h1></a>
+	<p id="Font1">The First <span id="green"> <strong> Online </strong> </span> Market in our country</p>
+</div>
+</div>
+
+<nav class="navbar navbar-default">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+</button>	
+<a class="navbar-brand" href="index.html" class="white" id="Logo">RamStore</a>
+</div>	
+
+<div class="collapse navbar-collapse" id="myNavbar">
+	<ul class="nav navbar-nav">
+	<li ><a href="Ramstore.html">Главная</a></li>	
+	<li><a href="Products.html"> Продукты <span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+	<li><a href="#contacts" id="pointt"> Контакты <span class="glyphicon glyphicon-earphone"></span></a></li>
+	</ul> 
+	<ul class="nav navbar-nav navbar-right">
+        <li><a href="#Point2"><span class="glyphicon glyphicon-user"></span> Аккаунт</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Корзина</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="result"></div>
+ 	<div class="background3">
+ 	 <div class="container">
+  	<div class="row">
+
+  		<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" id="border2">
+      <img  src="bulochka1.jpg" id="ImageHover" class="img-responsive" style="height:20em; width: 20em;"><span id="SectionImages"></span></a><br>
+         <span id="korzina"><button id="load"><span style="color: black;">Купить</span></button></span>
+   
+            <br>
+      </div>
+
+      <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" id="border2">
+      <a href="" style="color: black;">
+      <img src="cakes5.jpg" class="img-responsive" style="height:20em; width: 20em;"> <span id="SectionImages"></span></a><br>
+        <span id="korzina"><button id="load"><span style="color: black;">Купить</span></button></span>
+            <br>
+      </div>
+
+      <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" id="border2">
+      <a href="" style="color: black;">
+        <img src="bulochka3.jpg" class="img-responsive" style="height:20em; width: 20em;"><span id="SectionImages"></span></a><br>
+          <span id="korzina"><button id="load"><span style="color: black;">Купить</span></button></span>
+            <br>
+      </div>
+
+      <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" id="border2">
+      <a href="" style="color: black;">
+      <img src="bulochka4.jpg" class="img-responsive" style="height:20em; width: 20em;"><span id="SectionImagesMilk"></span></a><br>
+        <span id="korzina"><button id="load"><span style="color: black;">Купить</span></button></span>
+            <br>
+      </div>
+
+    </div>
+  </div>
+</div>
+  <br><br>
+
+   <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3"></div>
+      <div class="col-sm-6 col-md-6 ">
+      <div class="Font2" id="result">...</div>
+      <div class="col-md-3 col-sm-3"></div>
+      </div>
+    </div>
+  </div>
+
+
+  	<div class="background4">
+ 	 <div class="container">
+  	<div class="row">
+
+  	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" id="border2">
+      <img  src="bulochka7.jpg" id="ImageHover" class="img-responsive" style="height:20em; width: 20em;"><span id="SectionImages"></span></a><br>
+         <span id="korzina"><button id="load"><span style="color: black;">Купить</span></button></span>
+      
+            <br>
+      </div>
+
+      <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" id="border2">
+      <a href="" style="color: black;">
+      <img src="bulochka4.jpg" class="img-responsive" style="height:20em; width: 20em;"> <span id="SectionImages"></span></a><br>
+        <span id="korzina"><button id="load"><span style="color: black;">Купить</span></button></span>
+            <br>
+      </div>
+
+      <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" id="border2">
+      <a href="" style="color: black;">
+        <img src="bulochka5.jpg" class="img-responsive" style="height:20em; width: 20em;"><span id="SectionImages"></span></a><br>
+          <span id="korzina"><button id="load"><span style="color: black;">Купить</span></button></span>
+            <br>
+      </div>
+
+      <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" id="border2">
+      <a href="" style="color: black;">
+      <img src="bulochka4.jpg" class="img-responsive" style="height:20em; width: 20em;"><span id="SectionImagesMilk"></span></a><br>
+        <span id="korzina"><button id="load"><span style="color: black;">Купить</span></button></span>
+            <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <br><br>
+
+  	<div class="background3">
+ 	 <div class="container">
+  	<div class="row">
+
+  		<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" id="border2">
+      <img  src="bulochka5.jpg" id="ImageHover" class="img-responsive" style="height:20em; width: 20em;"><span id="SectionImages"></span></a><br>
+         <span id="korzina"><button id="load"><span style="color: black;">Купить</span></button></span>
+      
+            <br>
+      </div>
+
+      <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" id="border2">
+      <a href="" style="color: black;">
+      <img src="bulochka6.jpg" class="img-responsive" style="height:20em; width: 20em;"> <span id="SectionImages"></span></a><br>
+        <span id="korzina"><button id="load"><span style="color: black;">Купить</span></button></span>
+            <br>
+      </div>
+
+      <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" id="border2">
+      <a href="" style="color: black;">
+        <img src="bulochka7.jpg" class="img-responsive" style="height:20em; width: 20em;"><span id="SectionImages"></span></a><br>
+          <span id="korzina"><button id="load"><span style="color: black;">Купить</span></button></span>
+            <br>
+      </div>
+
+      <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" id="border2">
+      <a href="" style="color: black;">
+      <img src="bulochka8.jpg" class="img-responsive" style="height:20em; width: 20em;"><span id="SectionImagesMilk"></span></a><br>
+        <span id="korzina"><button id="load"><span style="color: black;">Купить</span></button></span>
+            <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <br><br>
+
+   
+
+<footer class="container-fluid text-center">
+  <p>Подписка на магазин</p> 
+  <form class="form-inline">Ваши данные:
+    <input type="email" class="form-control" size="50" placeholder="+7(777)777-77-77"><br> <br>
+    <button type="button" class="btn btn-danger">Зарегистрироваться</button>
+  </form><br>
+
+
+   <div class="container">
+  	<div class="row">
+  		<div class="col-sm-4">
+  			<h6>Наши партнеры: </h6>
+  			<p>
+  			<a href="http://www.ramstore.kz">Магазин <span class="glyphicon glyphicon-home"></span></a><br>
+  			<a href="https://www.foodpanda.sg">Доставка <span class="glyphicon glyphicon-send"></span></a><br>
+  			<a href="https://small.kz">Продукты <span class="glyphicon glyphicon-apple"></span></a>
+  			</p>
+  		</div>
+  		<div class="col-sm-4">
+  			<p>Мы принимаем: </p>
+  			<div class="col-sm-4">
+  				<img class="img-responsive" src="paypal.png" style="width: 8em; height:5em;">
+  				<img class="img-responsive" src="Bitcoin_accepted_here_printable.png" style="width: 11em; height:5em;"><br>
+  			</div>
+  			<div class="col-sm-4">
+  				<img class="img-responsive" src="QIWI_PAY.png" style="width: 8em; height:4em;"><br>
+  				<img class="img-responsive" src="logo-yandex-money.png" style="width: 8em; height:4em;"><br>
+  			</div>
+  			<div class="col-sm-4">
+  				<img class="img-responsive" src="apple_pay.png" style="width: 8em; height:4em;"><br>
+  				<img class="img-responsive" src="Android_Pay_logo.png" style="width: 8em; height:4em;"><br>
+  			</div>
+  		</div>
+  		<div class="col-sm-4" id="contacts">
+  			<h6>Наши контакты: <span class="glyphicon glyphicon-earphone"></span></h6>
+  			<p>+7(701)000-00-00<br>
+  				+7(701)000-00-01<br>
+  				+7(701)000-00-02
+			</p>
+  		</div>
+  	</div>
+  </div>
+</footer>
+</body>
+</html>

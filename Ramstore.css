@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i');
+/*font-family: 'Playfair Display SC', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:300,400,500,700');
+
+#orange{color:orange;}
+#green{color: green;}
+.white{color: white;}
+#white{color: white;}
+#black{color: black;}
+
+#Font1{font-size: 20px; font-family: 'Arima Madurai', cursive;} @import
+#Logo{background-color: #ff9800; color: white;}
+#Logo:hover {background:#4CAF50;}
+#Sales{background-color:red;}
+#Sales:hover {background:#D91414;}
+#advert{
+	background-color: #DBA040;
+ 	color: white;
+ 	font-weight: bold;
+    font-family: sans-serif;
+    font-size: all;
+    font-weight: bold;
+    height: 1.5em;
+  }
+
+  #background1{
+  	background-color:#FBF7EF;
+  }
+#btnhov{   
+ -webkit-transition: width 2s, height 4s;
+    transition: width 2s, height 4s;
+}
+#border{ border: 0.7em outset #DBA040;}
+
+#border2{ border: 0.5em inset #AE9679;}
+
+#btnhov:hover {
+	width:12em;
+    height: 4em;
+}
+#Sale1{justify-content: center;}
+#Sale2{margin-left:12em;}
+#slider{
+	height: 20em;
+	width: 70em;
+}
+#BlackFriday{
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2em;
+	margin-left: 16em;	
+}
+#LowerBackground{
+	background:#CEBAA0;
+}
+#map{
+	margin-top: 2em;
+	margin-bottom: 3em;
+	width: 47em;
+	height: 23em;
+}
+#MainImage{
+	max-height: 10em;
+	max-width: 70em;
+}
+#Image1{height: 20em;}
+
+#SectionImages{
+margin-left: 6em;
+font-weight: bold;
+font-style: italic;
+font-family: sans-serif;
+}
+#SectionImagesMilk{
+margin-left: 4em;
+font-weight: bold;
+font-style: italic;
+font-family: sans-serif;
+}
+#Point1{
+ transition-duration: 1s;
+}
+
+#korzina{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+}
+#korzina:active {background:linear-gradient(#f5ae00, #f59500) #f5ae00;}
+#korzina:hover {background: linear-gradient(#f59500, #f5ae00) #f59500;}
+
+.ImageHover img{
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.ImageHover img:hover {
+  -webkit-filter: opacity(50%);
+}
+.FirstWords{
+margin-bottom: 2rem;
+margin-top: 2rem;
+}
+
+.navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+
+.ImageMainPage{
+	width:20em;
+	height:30em;
+}
+.BlackFriday{ 
+	background-color:#CEBAA0;
+	height: 6em;
+ }
+ .background2{
+ 	margin-left: 2em;
+ 	margin-top: 2em;
+ 	background-color:black;
+ }
+.background3{
+	background-color: #B79872;
+}
+.background4{
+	background-color:#C09765;
+}
+.Font2{
+  color: #59D92E;
+  font-weight: bold;
+  font-family:'Playfair Display SC', serif; 
+  margin-bottom: 2em;
+
+}
+
+ .holder:hover{
+  -webkit-filter: opacity(50%);
+}
+
+body {
+    background-color:white;
+}
+div {font-family:'Playfair Display SC', serif;}
+
+footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
